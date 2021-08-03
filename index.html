@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Tetris</title>
+    <link rel="icon" href="./files/assets/tetris-linear-icon-modern-outline-logo-concept-white-background-entertainment-arcade-collection-suitable-use-web-133518756.jpg" type="image/x-icon">
+    <style>
+        #score {
+            display: inline-block;
+        }
+        
+        div {
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+        }
+        
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Enjoy<a target="_blank" href="">The Game</a></div><br>
+    <canvas id="tetris" width="200" height="400"></canvas>
+    <div>
+        Score :
+        <div id="score">0</div>
+    </div>
+    <script src="./files/JS/tetrominoes.js"></script>
+    <script src="./files/JS/tetris.js"></script>
+</body>
+
+</html>
